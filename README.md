@@ -2,6 +2,8 @@
 
 An AI-powered custom integration that generates personalized daily news briefings from RSS feeds and delivers them via Home Assistant media players.
 
+[中文|Chinese](README.zh-CN.md)
+
 ## ✨ Features
 
 - **AI-Powered Selection**: Uses LLMs (GPT-4o-mini, Claude, etc.) to intelligently select the most important and relevant stories
