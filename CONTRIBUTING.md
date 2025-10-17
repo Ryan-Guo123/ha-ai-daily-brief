@@ -1,95 +1,95 @@
-# 贡献指南
+# Contributing Guide
 
-感谢您考虑为Daily Brief做出贡献！
+Thank you for considering contributing to Daily Brief!
 
-## 行为准则
+## Code of Conduct
 
-### 我们的承诺
+### Our Pledge
 
-为了营造一个开放和友好的环境，我们作为贡献者和维护者承诺：无论年龄、体型、残疾、种族、性别特征、性别认同和表达、经验水平、教育程度、社会经济地位、国籍、外貌、种族、宗教或性认同和取向如何，参与我们的项目和社区的每个人都能获得无骚扰的体验。
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to make participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-### 我们的标准
+### Our Standards
 
-有助于创建积极环境的行为包括：
+Examples of behavior that contributes to creating a positive environment include:
 
-- 使用友好和包容的语言
-- 尊重不同的观点和经验
-- 优雅地接受建设性批评
-- 专注于对社区最有利的事情
-- 对其他社区成员表现出同理心
+- Using welcoming and inclusive language
+- Being respectful of differing viewpoints and experiences
+- Gracefully accepting constructive criticism
+- Focusing on what is best for the community
+- Showing empathy towards other community members
 
-## 如何贡献
+## How to Contribute
 
-### 报告Bug
+### Reporting Bugs
 
-在创建bug报告之前，请检查现有的issues以避免重复。创建bug报告时，请包含：
+Before creating a bug report, please check existing issues to avoid duplicates. When creating a bug report, please include:
 
-- 使用清晰描述性的标题
-- 详细的重现步骤
-- 预期行为和实际行为
-- 屏幕截图（如果适用）
-- Home Assistant版本、Python版本
-- 相关的日志输出
+- Use a clear and descriptive title
+- Detailed steps to reproduce
+- Expected behavior vs actual behavior
+- Screenshots (if applicable)
+- Home Assistant version, Python version
+- Relevant log output
 
-**Bug报告模板**:
+**Bug Report Template**:
 
 ```markdown
-**描述**
-简要描述bug
+**Description**
+Brief description of the bug
 
-**重现步骤**
-1. 进入 '...'
-2. 点击 '....'
-3. 滚动到 '....'
-4. 看到错误
+**Steps to Reproduce**
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-**预期行为**
-应该发生什么
+**Expected Behavior**
+What should happen
 
-**实际行为**
-实际发生了什么
+**Actual Behavior**
+What actually happened
 
-**环境**
-- Home Assistant版本: [例如 2024.10.0]
-- Python版本: [例如 3.11]
-- Daily Brief版本: [例如 0.1.0]
+**Environment**
+- Home Assistant version: [e.g. 2024.10.0]
+- Python version: [e.g. 3.11]
+- Daily Brief version: [e.g. 0.1.0]
 
-**日志**
+**Logs**
 ```
-粘贴相关日志
-```
-
-**截图**
-如果适用，添加截图
+Paste relevant logs
 ```
 
-### 功能请求
+**Screenshots**
+If applicable, add screenshots
+```
 
-功能请求应该包含：
+### Feature Requests
 
-- 清晰的功能描述
-- 为什么需要这个功能
-- 可能的实现方式（可选）
-- 相关的截图或模拟图（可选）
+Feature requests should include:
 
-### 提交代码
+- Clear description of the feature
+- Why this feature is needed
+- Possible implementation approach (optional)
+- Related screenshots or mockups (optional)
 
-#### 开发流程
+### Submitting Code
 
-1. **Fork仓库**
+#### Development Workflow
+
+1. **Fork the repository**
    ```bash
    git clone https://github.com/yourusername/ha-daily-brief
    cd ha-daily-brief
    ```
 
-2. **创建分支**
+2. **Create a branch**
    ```bash
    git checkout -b feature/amazing-feature
-   # 或
+   # or
    git checkout -b fix/bug-description
    ```
 
-3. **设置开发环境**
+3. **Set up development environment**
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # Windows: venv\Scripts\activate
@@ -98,85 +98,85 @@
    pre-commit install
    ```
 
-4. **编写代码**
-   - 遵循现有代码风格
-   - 添加类型提示
-   - 编写文档字符串
-   - 更新相关文档
+4. **Write code**
+   - Follow existing code style
+   - Add type hints
+   - Write docstrings
+   - Update relevant documentation
 
-5. **运行测试**
+5. **Run tests**
    ```bash
-   # 运行所有测试
+   # Run all tests
    pytest tests/
 
-   # 运行代码质量检查
+   # Run code quality checks
    black custom_components/daily_brief/
    isort custom_components/daily_brief/
    pylint custom_components/daily_brief/
    mypy custom_components/daily_brief/
    ```
 
-6. **提交更改**
+6. **Commit changes**
    ```bash
    git add .
-   git commit -m "feat: 添加了令人惊叹的功能"
+   git commit -m "feat: add amazing feature"
    ```
 
-   **提交消息规范**:
-   - `feat:` 新功能
-   - `fix:` Bug修复
-   - `docs:` 文档更新
-   - `style:` 代码格式（不影响代码运行）
-   - `refactor:` 重构
-   - `test:` 测试相关
-   - `chore:` 构建过程或辅助工具的变动
+   **Commit Message Conventions**:
+   - `feat:` New feature
+   - `fix:` Bug fix
+   - `docs:` Documentation updates
+   - `style:` Code formatting (does not affect code execution)
+   - `refactor:` Refactoring
+   - `test:` Test-related
+   - `chore:` Build process or auxiliary tool changes
 
-7. **推送并创建PR**
+7. **Push and create PR**
    ```bash
    git push origin feature/amazing-feature
    ```
-   然后在GitHub上创建Pull Request
+   Then create a Pull Request on GitHub
 
-#### Pull Request指南
+#### Pull Request Guidelines
 
-- 填写PR模板
-- 链接相关的issues
-- 确保所有测试通过
-- 更新文档（如果需要）
-- 添加更新日志条目
-- 等待代码审查
+- Fill out the PR template
+- Link related issues
+- Ensure all tests pass
+- Update documentation (if needed)
+- Add changelog entry
+- Wait for code review
 
-**PR检查清单**:
+**PR Checklist**:
 
-- [ ] 代码遵循项目风格指南
-- [ ] 添加了必要的测试
-- [ ] 所有测试通过
-- [ ] 更新了相关文档
-- [ ] 添加了changelog条目
-- [ ] Commit消息清晰描述性强
+- [ ] Code follows project style guidelines
+- [ ] Necessary tests have been added
+- [ ] All tests pass
+- [ ] Documentation has been updated
+- [ ] Changelog entry has been added
+- [ ] Commit messages are clear and descriptive
 
-## 代码风格
+## Code Style
 
-### Python代码规范
+### Python Code Standards
 
-- 使用 **Black** 格式化代码
-- 使用 **isort** 排序导入
-- 使用 **pylint** 进行代码检查
-- 使用 **mypy** 进行类型检查
-- 遵循 **PEP 8** 标准
-- 最大行长度: 100字符
+- Use **Black** for code formatting
+- Use **isort** for import sorting
+- Use **pylint** for code linting
+- Use **mypy** for type checking
+- Follow **PEP 8** standards
+- Maximum line length: 100 characters
 
-### 文档规范
+### Documentation Standards
 
-- 所有公共函数/类必须有文档字符串
-- 使用Google风格的文档字符串
-- 代码注释使用中文或英文（保持一致）
-- README和文档使用Markdown格式
+- All public functions/classes must have docstrings
+- Use Google-style docstrings
+- Code comments in English or Chinese (be consistent)
+- README and documentation in Markdown format
 
-### 示例
+### Example
 
 ```python
-"""模块的文档字符串."""
+"""Module docstring."""
 from __future__ import annotations
 
 import logging
@@ -186,121 +186,121 @@ _LOGGER = logging.getLogger(__name__)
 
 
 class ExampleClass:
-    """示例类的文档字符串.
+    """Example class docstring.
 
-    详细描述这个类的用途。
+    Detailed description of what this class does.
 
     Attributes:
-        name: 名称属性
-        value: 数值属性
+        name: Name attribute
+        value: Value attribute
 
     """
 
     def __init__(self, name: str, value: int) -> None:
-        """初始化示例类.
+        """Initialize the example class.
 
         Args:
-            name: 名称
-            value: 数值
+            name: The name
+            value: The value
 
         """
         self.name = name
         self.value = value
 
     async def example_method(self, param: str) -> dict[str, Any]:
-        """示例异步方法.
+        """Example async method.
 
         Args:
-            param: 参数说明
+            param: Parameter description
 
         Returns:
-            返回值说明
+            Return value description
 
         Raises:
-            ValueError: 何时会抛出这个异常
+            ValueError: When this exception is raised
 
         """
         if not param:
-            raise ValueError("param不能为空")
+            raise ValueError("param cannot be empty")
 
         return {"result": param}
 ```
 
-## 添加新功能
+## Adding New Features
 
-### 添加新的AI提供商
+### Adding a New AI Provider
 
-1. 在 `ai/providers/` 创建新文件（如 `anthropic.py`）
-2. 继承 `LLMProvider` 或 `TTSProvider` 基类
-3. 实现所有抽象方法
-4. 添加到 `__init__.py`
-5. 更新配置流程
-6. 编写测试
-7. 更新文档
+1. Create a new file in `ai/providers/` (e.g., `anthropic.py`)
+2. Inherit from `LLMProvider` or `TTSProvider` base class
+3. Implement all abstract methods
+4. Add to `__init__.py`
+5. Update config flow
+6. Write tests
+7. Update documentation
 
-### 添加新的内容包
+### Adding a New Content Pack
 
-1. 编辑 `feeds/content_packs.py`
-2. 添加新的内容包定义
-3. 测试RSS源是否有效
-4. 更新README
+1. Edit `feeds/content_packs.py`
+2. Add new content pack definition
+3. Test that RSS feeds are valid
+4. Update README
 
-## 测试
+## Testing
 
-### 编写测试
+### Writing Tests
 
-- 所有新功能必须有测试
-- 测试文件命名: `test_<module_name>.py`
-- 使用pytest fixtures
-- Mock外部API调用
+- All new features must have tests
+- Test file naming: `test_<module_name>.py`
+- Use pytest fixtures
+- Mock external API calls
 
-### 运行测试
+### Running Tests
 
 ```bash
-# 运行所有测试
+# Run all tests
 pytest
 
-# 运行特定文件
+# Run specific file
 pytest tests/test_aggregator.py
 
-# 运行特定测试
+# Run specific test
 pytest tests/test_aggregator.py::test_fetch_feed
 
-# 带覆盖率报告
+# With coverage report
 pytest --cov=custom_components/daily_brief tests/
 ```
 
-## 发布流程
+## Release Process
 
-只有维护者可以发布新版本：
+Only maintainers can publish new versions:
 
-1. 更新版本号
+1. Update version number
    - `manifest.json`
    - `const.py`
 
-2. 更新 `CHANGELOG.md`
+2. Update `CHANGELOG.md`
 
-3. 创建Git tag
+3. Create Git tag
    ```bash
    git tag -a v0.2.0 -m "Release v0.2.0"
    git push origin v0.2.0
    ```
 
-4. GitHub Actions会自动创建release
+4. GitHub Actions will automatically create release
 
-## 获取帮助
+## Getting Help
 
-如果您需要帮助：
+If you need help:
 
-- 查看 [文档](README.zh-CN.md)
-- 搜索 [现有issues](https://github.com/yourusername/ha-daily-brief/issues)
-- 创建新issue询问
-- 加入讨论
+- Check the [documentation](README.zh-CN.md)
+- Search [existing issues](https://github.com/yourusername/ha-daily-brief/issues)
+- Create a new issue to ask
+- Join the discussion
 
-## 致谢
+## Acknowledgments
 
-感谢所有贡献者！
+Thank you to all contributors!
 
-## 许可证
+## License
 
-通过贡献，您同意您的贡献将在 Apache License 2.0 下授权。
+By contributing, you agree that your contributions will be licensed under the Apache License 2.0.
