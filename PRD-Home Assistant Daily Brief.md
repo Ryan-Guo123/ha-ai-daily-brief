@@ -1626,7 +1626,7 @@ description: "Brief description"
 language: "en"  # or zh, es, fr, etc.
 category: "technology"  # technology, news, business, science, etc.
 icon: "mdi:newspaper"  # Material Design Icon
-author: "username"
+author: "Ryan-Guo123"
 version: "1.0.0"
 enabled: true
 
@@ -2327,7 +2327,7 @@ async def test_concurrent_generations():
 1. Open HACS in Home Assistant
 2. Go to Integrations
 3. Click the three dots (top right) → Custom repositories
-4. Add: `https://github.com/yourusername/ha-daily-brief`
+4. Add: `https://github.com/Ryan-Guo123/ha-daily-brief`
 5. Category: Integration
 6. Click "Add"
 7. Search for "Daily Brief"
@@ -2381,7 +2381,7 @@ async def test_concurrent_generations():
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ha-daily-brief
+git clone https://github.com/Ryan-Guo123/ha-daily-brief
 cd ha-daily-brief
 
 # Create virtual environment
@@ -2998,7 +2998,7 @@ We're creating a product that solves real information overload problems while re
 
 ### C. Contact & Support
 
-- **GitHub:** https://github.com/yourusername/ha-daily-brief
+- **GitHub:** https://github.com/Ryan-Guo123/ha-daily-brief
 - **Discord:** [Link to Discord server]
 - **Forum:** https://community.home-assistant.io/t/daily-brief
 - **Email:** support@dailybrief.dev

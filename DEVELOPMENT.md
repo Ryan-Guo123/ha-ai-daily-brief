@@ -289,7 +289,7 @@ The project is structured to welcome contributions:
 - **PRD**: [PRD-Home Assistant Daily Brief.md](PRD-Home%20Assistant%20Daily%20Brief.md)
 - **Code Guide**: [CLAUDE.md](CLAUDE.md)
 - **User Docs**: [README.md](README.md)
-- **GitHub**: https://github.com/username/ha-daily-brief
+- **GitHub**: https://github.com/Ryan-Guo123/ha-daily-brief
 
 ---
 
