@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Daily Brief Setup",
+        "description": "Configure your AI-powered news briefing",
+        "data": {
+          "llm_provider": "LLM Provider",
+          "llm_api_key": "LLM API Key",
+          "llm_model": "LLM Model"
+        }
+      },
+      "tts": {
+        "title": "Text-to-Speech Setup",
+        "description": "Configure voice generation",
+        "data": {
+          "tts_provider": "TTS Provider",
+          "tts_api_key": "TTS API Key",
+          "tts_voice": "Voice"
+        }
+      },
+      "content": {
+        "title": "Content Sources",
+        "description": "Select news sources",
+        "data": {
+          "content_packs": "Content Packs"
+        }
+      },
+      "preferences": {
+        "title": "Preferences",
+        "description": "Personalize your briefing",
+        "data": {
+          "interests": "Interests",
+          "briefing_length": "Briefing Length",
+          "language": "Language"
+        }
+      }
+    }
+  }
+}

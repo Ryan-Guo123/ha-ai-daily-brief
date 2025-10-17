@@ -1,0 +1,150 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Daily Brief Setup",
+        "description": "Configure your AI-powered news briefing",
+        "data": {
+          "llm_provider": "LLM Provider",
+          "llm_api_key": "LLM API Key",
+          "llm_model": "LLM Model"
+        }
+      },
+      "tts": {
+        "title": "Text-to-Speech Setup",
+        "description": "Configure voice generation",
+        "data": {
+          "tts_provider": "TTS Provider",
+          "tts_api_key": "TTS API Key (if required)",
+          "tts_voice": "Voice"
+        }
+      },
+      "content": {
+        "title": "Content Sources",
+        "description": "Select news sources",
+        "data": {
+          "content_packs": "Content Packs"
+        }
+      },
+      "preferences": {
+        "title": "Preferences",
+        "description": "Personalize your briefing",
+        "data": {
+          "interests": "Interests (comma-separated)",
+          "briefing_length": "Briefing Length",
+          "language": "Language"
+        }
+      }
+    },
+    "error": {
+      "api_error": "API connection failed. Please check your API key.",
+      "unknown": "An unknown error occurred."
+    },
+    "abort": {
+      "already_configured": "Daily Brief is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Daily Brief Options",
+        "description": "Update your Daily Brief configuration"
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "status": {
+        "name": "Status",
+        "state": {
+          "idle": "Idle",
+          "fetching": "Fetching articles",
+          "selecting": "Selecting stories",
+          "generating": "Generating script",
+          "ready": "Ready",
+          "playing": "Playing",
+          "error": "Error"
+        }
+      },
+      "progress": {
+        "name": "Progress"
+      }
+    },
+    "binary_sensor": {
+      "ready": {
+        "name": "Ready"
+      }
+    },
+    "button": {
+      "generate": {
+        "name": "Generate Briefing"
+      }
+    }
+  },
+  "services": {
+    "generate": {
+      "name": "Generate Briefing",
+      "description": "Generate a new daily briefing",
+      "fields": {
+        "briefing_type": {
+          "name": "Briefing Type",
+          "description": "Type of briefing to generate"
+        },
+        "force_refresh": {
+          "name": "Force Refresh",
+          "description": "Force refresh of all sources"
+        },
+        "article_count": {
+          "name": "Article Count",
+          "description": "Number of articles to include"
+        }
+      }
+    },
+    "play": {
+      "name": "Play Briefing",
+      "description": "Play a briefing on a media player",
+      "fields": {
+        "media_player": {
+          "name": "Media Player",
+          "description": "Media player entity to use"
+        },
+        "briefing_date": {
+          "name": "Briefing Date",
+          "description": "Date of briefing to play (defaults to today)"
+        }
+      }
+    },
+    "feedback": {
+      "name": "Provide Feedback",
+      "description": "Provide feedback on an article",
+      "fields": {
+        "article_id": {
+          "name": "Article ID",
+          "description": "ID of the article"
+        },
+        "feedback_type": {
+          "name": "Feedback Type",
+          "description": "Type of feedback"
+        }
+      }
+    },
+    "add_source": {
+      "name": "Add Source",
+      "description": "Add a custom RSS feed source",
+      "fields": {
+        "name": {
+          "name": "Source Name",
+          "description": "Name of the source"
+        },
+        "url": {
+          "name": "Feed URL",
+          "description": "RSS feed URL"
+        },
+        "category": {
+          "name": "Category",
+          "description": "Content category"
+        }
+      }
+    }
+  }
+}

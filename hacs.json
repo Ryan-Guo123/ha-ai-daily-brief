@@ -1,0 +1,11 @@
+{
+  "name": "Daily Brief",
+  "hacs": "1.6.0",
+  "domains": ["sensor", "binary_sensor", "button", "media_player"],
+  "iot_class": "Cloud Polling",
+  "homeassistant": "2024.10.0",
+  "render_readme": true,
+  "country": ["CN", "US", "GB"],
+  "zip_release": false,
+  "filename": "daily_brief.zip"
+}
