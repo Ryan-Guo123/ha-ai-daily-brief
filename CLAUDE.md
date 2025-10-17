@@ -227,9 +227,9 @@ daily_brief:
   "domain": "daily_brief",
   "name": "Daily Brief",
   "version": "0.1.0",
-  "documentation": "https://github.com/username/ha-daily-brief",
+  "documentation": "https://github.com/Ryan-Guo123/ha-daily-brief",
   "dependencies": [],
-  "codeowners": ["@username"],
+  "codeowners": ["@Ryan-Guo123"],
   "requirements": [
     "aiohttp>=3.9.0",
     "feedparser>=6.0.10",

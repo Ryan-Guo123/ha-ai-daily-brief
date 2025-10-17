@@ -77,9 +77,9 @@ automation:
 
 ## 需要帮助？
 
-- 📖 [完整文档](https://github.com/yourusername/ha-daily-brief)
-- 💬 [问题反馈](https://github.com/yourusername/ha-daily-brief/issues)
-- 🌟 [给项目加星](https://github.com/yourusername/ha-daily-brief)
+- 📖 [完整文档](https://github.com/Ryan-Guo123/ha-daily-brief)
+- 💬 [问题反馈](https://github.com/Ryan-Guo123/ha-daily-brief/issues)
+- 🌟 [给项目加星](https://github.com/Ryan-Guo123/ha-daily-brief)
 
 ## 截图
 

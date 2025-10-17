@@ -1,12 +1,12 @@
 {
   "domain": "daily_brief",
   "name": "Daily Brief",
-  "codeowners": ["@username"],
+  "codeowners": ["@Ryan-Guo123"],
   "config_flow": true,
-  "documentation": "https://github.com/username/ha-daily-brief",
+  "documentation": "https://github.com/Ryan-Guo123/ha-daily-brief",
   "integration_type": "service",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/username/ha-daily-brief/issues",
+  "issue_tracker": "https://github.com/Ryan-Guo123/ha-daily-brief/issues",
   "requirements": [
     "aiohttp>=3.9.0",
     "feedparser>=6.0.10",
