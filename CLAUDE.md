@@ -312,7 +312,7 @@ daily_brief:
   "domain": "daily_brief",
   "name": "Daily Brief",
   "version": "0.1.0",
-  "documentation": "https://github.com/Ryan-Guo123/ha-daily-brief",
+  "documentation": "https://github.com/Ryan-Guo123/ha-ai-daily-brief",
   "dependencies": [],
   "codeowners": ["@Ryan-Guo123"],
   "requirements": [

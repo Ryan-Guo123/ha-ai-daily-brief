@@ -14,7 +14,7 @@
 
 1. 访问 https://github.com/new
 2. 填写仓库信息:
-   - **仓库名**: `ha-daily-brief`
+   - **仓库名**: `ha-ai-daily-brief`
    - **描述**: `AI-powered daily news briefing for Home Assistant`
    - **可见性**: Public (HACS要求)
    - **不要**初始化README、.gitignore或LICENSE（我们已经有了）
@@ -32,7 +32,7 @@ cd /Users/ryan/AI/ha-ai-daily-brief
 git init
 
 # 添加远程仓库
-git remote add origin https://github.com/Ryan-Guo123/ha-daily-brief.git
+git remote add origin https://github.com/Ryan-Guo123/ha-ai-daily-brief.git
 
 # 添加所有文件
 git add .
@@ -59,7 +59,7 @@ git push origin v0.1.0
 
 ### 2. 在GitHub上创建Release
 
-1. 访问你的仓库: `https://github.com/Ryan-Guo123/ha-daily-brief`
+1. 访问你的仓库: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
 2. 点击右侧的 "Releases"
 3. 点击 "Create a new release"
 4. 填写发布信息:
@@ -90,7 +90,7 @@ Daily Brief for Home Assistant - AI驱动的个性化每日新闻简报
 1. 打开HACS
 2. 进入"集成"
 3. 点击右上角菜单 → "自定义仓库"
-4. 添加: `https://github.com/Ryan-Guo123/ha-daily-brief`
+4. 添加: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
 5. 类别: "Integration"
 6. 搜索并安装"Daily Brief"
 
@@ -174,14 +174,14 @@ data:
 
 ```json
 {
-  "Ryan-Guo123/ha-daily-brief": {
+  "Ryan-Guo123/ha-ai-daily-brief": {
     "name": "Daily Brief"
   }
 }
 ```
 
 4. 提交Pull Request
-5. PR标题: `Add Ryan-Guo123/ha-daily-brief`
+5. PR标题: `Add Ryan-Guo123/ha-ai-daily-brief`
 6. 等待HACS团队审核（通常1-3天）
 
 #### 方式二：填写表单
@@ -209,7 +209,7 @@ HACS要求检查清单：
 1. 在Home Assistant中安装HACS（如果还没有）
 2. 添加自定义仓库:
    - HACS → 集成 → 右上角菜单 → 自定义仓库
-   - URL: `https://github.com/Ryan-Guo123/ha-daily-brief`
+   - URL: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
    - 类别: Integration
 3. 搜索并安装"Daily Brief"
 4. 重启Home Assistant

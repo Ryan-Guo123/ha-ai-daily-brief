@@ -2324,7 +2324,7 @@ async def test_concurrent_generations():
 1. 在 Home Assistant 中打开 HACS
 2. 进入 集成
 3. 点击右上角的三个点 → 自定义存储库
-4. 添加: `https://github.com/Ryan-Guo123/ha-daily-brief`
+4. 添加: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
 5. 类别: 集成
 6. 点击 "添加"
 7. 搜索 "Daily Brief"
@@ -2378,8 +2378,8 @@ async def test_concurrent_generations():
 
 ```bash
 # 克隆仓库
-git clone https://github.com/Ryan-Guo123/ha-daily-brief
-cd ha-daily-brief
+git clone https://github.com/Ryan-Guo123/ha-ai-daily-brief
+cd ha-ai-daily-brief
 
 # 创建虚拟环境
 python3 -m venv venv
@@ -2985,7 +2985,7 @@ Piper TTS: $0 (音频生成)
 
 ### C. 联系与支持
 
--   **GitHub:** https://github.com/Ryan-Guo123/ha-daily-brief
+-   **GitHub:** https://github.com/Ryan-Guo123/ha-ai-daily-brief
 -   **Discord:** [Discord 服务器链接]
 -   **论坛:** https://community.home-assistant.io/t/daily-brief
 -   **邮箱:** support@dailybrief.dev
