@@ -78,8 +78,8 @@
 
 1. **Fork仓库**
    ```bash
-   git clone https://github.com/Ryan-Guo123/ha-daily-brief
-   cd ha-daily-brief
+   git clone https://github.com/Ryan-Guo123/ha-ai-daily-brief
+   cd ha-ai-daily-brief
    ```
 
 2. **创建分支**
@@ -293,7 +293,7 @@ pytest --cov=custom_components/daily_brief tests/
 如果您需要帮助：
 
 - 查看 [文档](README.zh-CN.md)
-- 搜索 [现有issues](https://github.com/Ryan-Guo123/ha-daily-brief/issues)
+- 搜索 [现有issues](https://github.com/Ryan-Guo123/ha-ai-daily-brief/issues)
 - 创建新issue询问
 - 加入讨论
 

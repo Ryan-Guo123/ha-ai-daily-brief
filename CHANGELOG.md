@@ -58,5 +58,5 @@
 - API文档
 - 使用示例
 
-[未发布]: https://github.com/Ryan-Guo123/ha-daily-brief/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/Ryan-Guo123/ha-daily-brief/releases/tag/v0.1.0
+[未发布]: https://github.com/Ryan-Guo123/ha-ai-daily-brief/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/Ryan-Guo123/ha-ai-daily-brief/releases/tag/v0.1.0
