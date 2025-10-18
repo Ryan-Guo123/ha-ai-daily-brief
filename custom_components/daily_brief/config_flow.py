@@ -69,7 +69,7 @@ class DailyBriefConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
             data_schema=data_schema,
             errors=errors,
             description_placeholders={
-                "docs_url": "https://github.com/username/ha-daily-brief"
+                "docs_url": "https://github.com/Ryan-Guo123/ha-ai-daily-brief"
             },
         )
 

@@ -28,7 +28,7 @@ An AI-powered custom integration that generates personalized daily news briefing
 1. Open HACS in Home Assistant
 2. Go to "Integrations"
 3. Click the three dots (top right) → "Custom repositories"
-4. Add repository URL: `https://github.com/yourusername/ha-daily-brief`
+4. Add repository URL: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
 5. Category: "Integration"
 6. Click "Add"
 7. Search for "Daily Brief"
@@ -140,8 +140,8 @@ Pre-configured content collections:
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/ha-daily-brief
-cd ha-daily-brief
+git clone https://github.com/Ryan-Guo123/ha-ai-daily-brief
+cd ha-ai-daily-brief
 
 # Create virtual environment
 python3 -m venv venv
@@ -204,7 +204,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 📞 Support
 
-- **GitHub Issues**: https://github.com/yourusername/ha-daily-brief/issues
+- **GitHub Issues**: https://github.com/Ryan-Guo123/ha-ai-daily-brief/issues
 - **Home Assistant Forum**: [Discussion Thread]
 - **Discord**: [Server Link]
 

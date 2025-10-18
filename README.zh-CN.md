@@ -26,7 +26,7 @@
 1. 在Home Assistant中打开HACS
 2. 进入"集成"
 3. 点击右上角三点菜单 → "自定义仓库"
-4. 添加仓库URL: `https://github.com/yourusername/ha-daily-brief`
+4. 添加仓库URL: `https://github.com/Ryan-Guo123/ha-ai-daily-brief`
 5. 类别选择: "Integration"
 6. 点击"添加"
 7. 搜索"Daily Brief"
@@ -142,8 +142,8 @@ automation:
 
 ```bash
 # 克隆仓库
-git clone https://github.com/yourusername/ha-daily-brief
-cd ha-daily-brief
+git clone https://github.com/Ryan-Guo123/ha-ai-daily-brief
+cd ha-ai-daily-brief
 
 # 创建虚拟环境
 python3 -m venv venv
@@ -199,7 +199,7 @@ custom_components/daily_brief/
 
 ## 📞 支持
 
-- **GitHub Issues**: https://github.com/yourusername/ha-daily-brief/issues
+- **GitHub Issues**: https://github.com/Ryan-Guo123/ha-ai-daily-brief/issues
 - **Home Assistant论坛**: [讨论主题]
 - **Discord**: [服务器链接]
 

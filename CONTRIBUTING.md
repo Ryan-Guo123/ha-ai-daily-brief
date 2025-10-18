@@ -78,8 +78,8 @@ Feature requests should include:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/yourusername/ha-daily-brief
-   cd ha-daily-brief
+   git clone https://github.com/Ryan-Guo123/ha-ai-daily-brief
+   cd ha-ai-daily-brief
    ```
 
 2. **Create a branch**
@@ -293,7 +293,7 @@ Only maintainers can publish new versions:
 If you need help:
 
 - Check the [documentation](README.zh-CN.md)
-- Search [existing issues](https://github.com/yourusername/ha-daily-brief/issues)
+- Search [existing issues](https://github.com/yourusername/ha-ai-daily-brief/issues)
 - Create a new issue to ask
 - Join the discussion
 
